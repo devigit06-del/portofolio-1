@@ -1,11 +1,39 @@
-body {
-  min-height: 2000px;
-}
-.jumbotron {
-  padding-top: 2rem;
-  background-color: #f0a9f0;
-}
+
 
 #projectrs {
   background-color: #f0a9f0;
 }
+body {
+  padding-top: 70px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  background-color: #ee6cd8;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.jumbotron {
+  padding: 6rem 1rem;
+  background: linear-gradient(135deg, #ee6cd8, #f8b7ec);
+  color: white;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #ee6cd8;
+  color: white;
+}
+
